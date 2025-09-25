@@ -1,0 +1,17 @@
+# faiss-cpu : pour FAISS sans GPU (plus simple).
+# sentence-transformers : pour générer les embeddings.
+# uvicorn : serveur pour FastAPI. 
+
+fastapi
+uvicorn[standard]
+google-generativeai
+faiss-cpu
+sentence-transformers
+celery[redis]
+redis
+python-dotenv
+SQLAlchemy
+pydantic
+sendgrid
+twilio
+python-multipart
